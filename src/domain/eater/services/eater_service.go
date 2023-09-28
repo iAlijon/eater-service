@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"time"
 	"github.com/iAlijon/eater-service/src/domain/eater/models"
+	"github.com/iAlijon/eater-service/src/domain/eater/repositories"
 	"go.uber.org/zap"
 )
 
@@ -68,7 +69,7 @@ func (s *eaterSvcImpl) handleNewEater(ctx contect.Context, phoneNumber string) (
 	eaterProfile := models.EaterProfile{
 		EaterID: eaterID,
 		PhoneNumber: phoneNumber,
-		Name: eaterName,
+		Name: earterName,
 		ImageUrl: "",
 		CreatedAt: now,
 		UpdateAt: now,
@@ -81,7 +82,7 @@ func (s *eaterSvcImpl) handleNewEater(ctx contect.Context, phoneNumber string) (
 		CreatedAt: now,
 	}
 
-	err := s.eaterRepo.WithTx(ctx, func(r repositories, EaterRepository) error {
+	err := s.eaterRepo.WithTx(ctx, func(r repositories.EaterRepository) error {
 		if err := r.SaveEater(ctx, &eater); err != nil {
 			return err
 		}

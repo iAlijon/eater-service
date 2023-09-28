@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ee85b44-489d-4b3a-a9e5-637e3feca83b" name="Default Changelist" comment="" />
+    <list default="true" id="0ee85b44-489d-4b3a-a9e5-637e3feca83b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/dtos/confirm_sms_code_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/dtos/confirm_sms_code_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/dtos/eater_signup_response.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/dtos/eater_signup_response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/eater/services/eater_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/eater/services/eater_service.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
